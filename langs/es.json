@@ -1,0 +1,35 @@
+{
+    "DocumentTitle":"Portafolio",
+    "Greeting":"Hola! Soy David",
+    "GreetingText":"He programado por 2 años y medio, estuve descubriendo la programación por 6 meses y llevo 2 años en el campo del Desarrollo Web",
+    "MailContact":"Contáctame",
+    "SkillsTitle":"Habilidades",
+    "ProjectsTitle":"Proyectos",
+    "Projects":[
+        {
+            "AppImage":"",
+            "AppTitle":"Aplicación del clima",
+            "AppQuickDesc":"Aplicación de clima en tiempo real para cualquier ciudad del mundo.",
+            "AppDesc":"Una aplicación del clima que provee datos de temperatura, país, visibilidad del cielo velocidad y dirección del viento, temperatura máxima y mínima, y además puedes buscar por Ciudad únicamente, o por Ciudad y País. Hice esta aplicación utilizando Javascript, jQuery, HTML, CSS, y la API de OpenWeatherApp para conseguir los datos del clima."
+        },
+        {
+            "AppImage":"",
+            "AppTitle":"Tienda de motos",
+            "AppQuickDesc":"Tienda virtual de motos con su base de datos propia",
+            "AppDesc":"Tienda online de motos en la cual puedes filtrar por marca, precio, tipo o modelo, al desplazar el mouse sobre alguna de las motos, te muestra un poco de la información básica sobre la esta, tales como la cilindrada, la potencia y el peso en seco, después cuando quieras darle un vistazo a una moto específica, te lleva a otro componente donde puedes ver el valor, nombre y modelo de la moto, con una breve descripción de esta y detalles tales cómo una descripcióndel motor, potencia, torque, peso en seco, peso en húmedo, especificaciones del clutch y de la transmision, alto, ancho, largo, altura del asiento, y más. Esta aplicación tiene su propia base de datos y está hecha usando ReactJS, NodeJS, ExpressJS, JavaScript, TailwindCSS, HTML, and MySQL."
+        }
+    ],    
+    "AboutMe":[
+        "Mi nombre es David Ordoñez. Me interesé por la programación a finales de 2021 y desde entonces :me he dedicado a investigar y estudiar diversos lenguajes y tecnologías de programación:.", 
+
+        "Comencé mi camino en la programación adentrándome en C++, motivado por mi curiosidad por el desarrollo de juegos. Sin embargo, poco después comencé a explorar Python. Aunque Python me pareció muy interesante, quería un entorno que fuera más visual.",
+        
+        "Fue durante esta búsqueda que descubrí el desarrollo web. A finales del primer trimestre de 2022, me adentré en JavaScript. Fue aquí donde realmente :empecé a entender la esencia de la programación:.",
+        
+        "Mi principal objetivo es convertirme en un desarrollador senior competente en una amplia gama de áreas. Actualmente, estoy :centrado en aprender TypeScript, ExpressJS y NextJS, mientras mejoro mis habilidades en React, MySQL y NodeJS:.",
+        
+        "Creo firmemente que el único límite para la programación es la imaginación de uno mismo. :Con suficiente aprendizaje y práctica, todo es posible:.",
+        
+        "Sin embargo, al expandir continuamente mis conocimientos y habilidades, :aspiro no solo a completar tareas, sino a elevar el arte del desarrollo web, empujando los límites de la creatividad e innovación:."
+    ]
+}

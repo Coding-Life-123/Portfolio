@@ -1,0 +1,131 @@
+:root{
+    --text-color: rgb(230,230,230);
+    --button-background: rgb(30,30,60);
+    --borders-color: rgba(200,200,200,1);
+    --center-color: rgba(10,10,30,0.9);
+    --center-flat-color: rgba(10,10,30,1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, var(--borders-color), var(--center-color) 0%, var(--center-flat-color) 20% 80%, var(--center-color) 100%, var(--borders-color));
+    /*radial-gradient(ellipse 700% 30000% , rgba(10,10,30,1), rgba(200, 200, 200,1));*/
+    color: var(--text-color);
+}
+
+.main-container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-container > section{
+    margin-top: 16vh;
+}
+
+.greeting-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26vh;
+}
+
+.greeting-title{    
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.greeting-desc{
+    font-size: x-large;
+}
+
+.buttons-container{
+    margin-top: 4vh;
+    display: flex;
+    width: 100%;
+}
+
+.button-fix{
+    width: fit-content;
+    display: block;
+}
+
+.button-container{
+    width: fit-content;
+    display: inline-block;
+    margin: 12px 20px 0px 0px;
+    border: 1px solid var(--borders-color);
+    border-radius: 20px;
+    background: var(--button-background);
+    cursor: pointer;
+}
+
+.button-container > a{
+    display: flex;
+    color: var(--text-color);
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 10px 20px;
+    vertical-align: middle;
+}
+
+.button-container a svg{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+
+section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: block;
+}
+
+.title-container{
+    height: fit-content;
+    display: flex;
+}
+
+.title-container svg{
+    height: 30px;
+    width: 30px;
+    margin: auto 10px auto 0px;    
+}
+
+.title{
+    font-size: 36px;
+}
+
+.skills-container .skills{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.skills-container .skills .skills-fix{
+    display: block;
+    margin: 0px auto 0px auto;
+    width: fit-content;
+}
+
+.skills-container .skills .skills-fix div{
+    display: inline-block;
+    width: fit-content;
+    margin: 5px 12px;
+}
+
+.skills-container .skills .skills-fix div img{
+    display: flex;
+    width: 24px;
+    height: 30px;
+    margin: auto;
+}
+
+.skills-container .skills .skills-fix div p{
+    font-size: large;
+    font-weight: 600;
+    margin-top: 10px;
+}

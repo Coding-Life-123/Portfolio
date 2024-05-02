@@ -1,0 +1,33 @@
+{
+    "DocumentTitle":"Portfolio",
+    "Greeting":"Hi! I am David",
+    "GreetingText":"I have been coding for 2 and a half years, i spent 6 months discovering programming and i've been in the Web Development field for 2 years",
+    "MailContact":"Contact Me",
+    "SkillsTitle":"Skills",
+    "ProjectsTitle":"Projects",
+    "Projects":[
+        {
+            "AppTitle":"Weather App",
+            "AppQuickDesc":"Realtime weather app for any city in the world.",
+            "AppDesc":"A weather app that provides temperature, country, sky visibility, wind speed and direction, maximum and minimum temperature, and you can also do a search by City only, or City and Country. I made this app using JavaScript, jQuery, HTML, CSS, and OpenWeatherApp API to get the weather data."
+        },
+        {
+            "AppTitle":"Bike shop",
+            "AppQuickDesc":"Virtual bike shop with it's own database",
+            "AppDesc":"Online bike shop on wich you can filter by brand, cost, type or model, when you hover on a bike it shows you some basic data about the bike, such as engine displacement, dry weight and power, then when you want to take a look at a specific bike it takes you to a component where you can see the cost, name and model of the bike, with a quick description of it, and details such as an engine description, power, torque, dry weight, wet weight, clutch specs, transmission specs, height, width, length, seat height, and more, it has its own database and is made using ReactJS, NodeJS, ExpressJS, JavaScript, TailwindCSS, HTML, and MySQL."
+        }
+    ],
+    "AboutMe":[
+        "My name is David Ordoñez. I became interested in programming in late 2021 and since then, :I have dedicated myself to researching and studying various programming languages and technologies:.",
+
+        "I began my programming journey by delving into C++, driven by my curiosity for game development. However, shortly after, I started exploring Python. While I found Python very interesting, I was looking for an environment that was more visual.",
+        
+        "It was during this search that i discovered web development. By the end of Q1 2022, I dove into JavaScript. It was here that i truly :began to understand the essence of programming:.",
+        
+        "My main goal is to become a competent senior developer in a wide range of areas. Currently, I am :focused on learning TypeScript and ExpressJS, while improving my skills in React, MySQL, and NodeJS.:",
+        
+        "I firmly believe that the only limit to programming is your own imagination. :With enough learning and practice, anything is possible:.",
+        
+        "However, by continually expanding my knowledge and skills, :i aspire to not only complete tasks but to elevate the art of web development, pushing the boundaries of creativity and innovation:."
+    ]
+}
