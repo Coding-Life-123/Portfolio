@@ -15,7 +15,18 @@ $(document).ready(function(){
 
 
         for( i=0; i<data.Projects.length; i++){
-            $("#projects").append(`<h1 class="project-title">${data.Projects[i].AppTitle}</h1>`)
+            $("#projects").append(`
+                <div class="project-container">
+                    <div class="project-image-container">
+                        <img src=${data.Projects[i].AppImage} class="project-image" alt=""/>
+                    </div>
+                    <div class="project-text-container">
+                        <h1 class="project-title">${data.Projects[i].AppTitle}</h1>
+                        <p class="project-quick-desc">${data.Projects[i].AppQuickDesc}</p>
+                        <a class="project-button">See More...</a>
+                    </div>
+                </div>
+            `)
         }
     }
     loadData()

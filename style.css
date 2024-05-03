@@ -21,15 +21,18 @@ body{
     margin-right: auto;
 }
 
+.main-container .greeting-container{
+    margin-top: 30vh;
+    margin-bottom: 24vh;
+}
+
 .main-container > section{
-    margin-top: 16vh;
+    margin-top: 14vh;
 }
 
 .greeting-container{
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 26vh;
+    margin: 0px auto 0px auto;
 }
 
 .greeting-title{    
@@ -128,4 +131,61 @@ section{
     font-size: large;
     font-weight: 600;
     margin-top: 10px;
+}
+
+.project-container{
+    display: flex;
+    margin: 20px 20px 40px 20px;
+}
+
+.project-image{
+    width: 360px;
+    height: 200px;
+}
+
+.project-text-container{
+    margin-left: 20px;
+}
+
+.project-quick-desc{
+    font-size: large;
+}
+
+.project-button-container{
+    height: 30%;
+    padding: 10px;
+    background: #999;
+    border-radius: 10px;
+
+}
+
+.project-button{
+    
+    margin-bottom: 0px;
+    margin-top: auto;
+    margin-right: 0px;
+    margin-left: auto;
+    text-decoration: none;
+    color: white;
+    background: none;
+    border: none;
+    font-size: medium;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media (max-width:1200px) {
+
+    .project-container{
+        display: block;
+        width: 46vh;
+        margin: 10px 0px 50px 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .project-text-container{
+        margin-left: 0px;
+        width: 46vh;
+    }
 }
