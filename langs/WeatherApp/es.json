@@ -1,0 +1,4 @@
+{
+    "AppTitle":"Aplicación del clima",
+    "AppDesc":"Una aplicación del clima que provee datos de temperatura, país, visibilidad del cielo velocidad y dirección del viento, temperatura máxima y mínima, y además puedes buscar por Ciudad únicamente, o por Ciudad y País. Hice esta aplicación utilizando Javascript, jQuery, HTML, CSS, y la API de OpenWeatherApp para conseguir los datos del clima."
+}

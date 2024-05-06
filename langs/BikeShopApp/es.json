@@ -1,0 +1,4 @@
+{
+    "AppTitle":"Tienda de motos",
+    "AppDesc":"Tienda online de motos en la cual puedes filtrar por marca, precio, tipo o modelo, al desplazar el mouse sobre alguna de las motos, te muestra un poco de la información básica sobre la esta, tales como la cilindrada, la potencia y el peso en seco, después cuando quieras darle un vistazo a una moto específica, te lleva a otro componente donde puedes ver el valor, nombre y modelo de la moto, con una breve descripción de esta y detalles tales cómo una descripcióndel motor, potencia, torque, peso en seco, peso en húmedo, especificaciones del clutch y de la transmision, alto, ancho, largo, altura del asiento, y más. Esta aplicación tiene su propia base de datos y está hecha usando ReactJS, NodeJS, ExpressJS, JavaScript, TailwindCSS, HTML, and MySQL."
+}

@@ -1,0 +1,26 @@
+:root{
+    --text-color: rgb(230,230,230);
+    --button-background: rgb(30,30,60);
+    --borders-color: rgba(200,200,200,1);
+    --center-color: rgba(10,10,30,0.9);
+    --center-flat-color: rgba(10,10,30,1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, var(--borders-color), var(--center-color) 0%, var(--center-flat-color) 20% 80%, var(--center-color) 100%, var(--borders-color));
+    /*radial-gradient(ellipse 700% 30000% , rgba(10,10,30,1), rgba(200, 200, 200,1));*/
+    color: var(--text-color);
+}
+
+.gallery .main-image{
+    width: 60vw;
+    height: 60vh;
+}
+
+.gallery img{
+    width: 55vw;
+    height: 55vh;
+}

@@ -1,0 +1,4 @@
+{
+    "AppTitle":"Bike shop",
+    "AppDesc":"Online bike shop on wich you can filter by brand, cost, type or model, when you hover on a bike it shows you some basic data about the bike, such as engine displacement, dry weight and power, then when you want to take a look at a specific bike it takes you to a component where you can see the cost, name and model of the bike, with a quick description of it, and details such as an engine description, power, torque, dry weight, wet weight, clutch specs, transmission specs, height, width, length, seat height, and more, it has its own database and is made using ReactJS, NodeJS, ExpressJS, JavaScript, TailwindCSS, HTML, and MySQL."
+}

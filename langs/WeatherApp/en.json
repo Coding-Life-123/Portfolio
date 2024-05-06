@@ -1,0 +1,4 @@
+{
+    "AppTitle":"Weather App",
+    "AppDesc":"A weather app that provides temperature, country, sky visibility, wind speed and direction, maximum and minimum temperature, and you can also do a search by City only, or City and Country. I made this app using JavaScript, jQuery, HTML, CSS, and OpenWeatherApp API to get the weather data."
+}

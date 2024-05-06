@@ -23,10 +23,16 @@ $(document).ready(function(){
                     <div class="project-text-container">
                         <h1 class="project-title">${data.Projects[i].AppTitle}</h1>
                         <p class="project-quick-desc">${data.Projects[i].AppQuickDesc}</p>
-                        <a class="project-button">See More...</a>
+                        <a class="project-button" href=${"./Projects/"+data.Projects[i].AppProjectLink + ".html"}>See More...</a>
                     </div>
                 </div>
             `)
+        }
+
+        $("#aboutMeTitle").html(data.AboutMeTitle)
+        for( i = 0; i < data.AboutMe.length; i++){
+            let aboutData = data.AboutMe[i].split(':')
+            $("#aboutMeTexts").append(`<p>${aboutData[0]}<span>${aboutData[1]}</span>${aboutData[2]}</p>`)
         }
     }
     loadData()
