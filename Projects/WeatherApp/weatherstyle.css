@@ -15,12 +15,39 @@ body{
     color: var(--text-color);
 }
 
-.gallery .main-image{
-    width: 60vw;
-    height: 60vh;
+.back-button{
+    fill: var(--text-color);
+    position: sticky;
 }
 
-.gallery img{
-    width: 55vw;
-    height: 55vh;
+main{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.app-title{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-desc{
+    font-size: x-large;
+    margin-bottom: 60px;
+}
+
+.app-desc-container > p{
+    margin-top: 50px;
+    font-size: larger;
+}
+
+img{
+    display: block;
+    width: 60vw;
+    height: 32vw;
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+

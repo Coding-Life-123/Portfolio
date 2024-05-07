@@ -1,4 +1,10 @@
 {
     "AppTitle":"Weather App",
-    "AppDesc":"A weather app that provides temperature, country, sky visibility, wind speed and direction, maximum and minimum temperature, and you can also do a search by City only, or City and Country. I made this app using JavaScript, jQuery, HTML, CSS, and OpenWeatherApp API to get the weather data."
+    "AppDesc":"A weather app that provides temperature, country, sky visibility, wind speed and direction, maximum and minimum temperature, and you can also do a search by City only, or City and Country. I made this app using JavaScript, jQuery, HTML, CSS, and OpenWeatherApp API to get the weather data.",
+    "AppSearchBy": [
+        "You can search cities by typing its name and the ISO Code of the country, as in this case City: New York, ISO code: USA (United States)",
+        "Or typing the full name of the country, City: Paris, Country: France",
+        "Or just typing the city name only, and the app is going to show the first city it finds",
+        "The app also has a language switch, "
+    ]
 }
