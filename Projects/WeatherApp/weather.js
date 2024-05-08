@@ -10,6 +10,7 @@ $(document).ready(function(){
     $("#searchISO").html(data.AppSearchBy[0])
     $("#searchCountry").html(data.AppSearchBy[1])
     $("#searchCity").html(data.AppSearchBy[2])
+    $("#langButton").html(data.AppSearchBy[3])
   }
   getData()
 });

@@ -5,6 +5,7 @@
         "You can search cities by typing its name and the ISO Code of the country, as in this case City: New York, ISO code: USA (United States)",
         "Or typing the full name of the country, City: Paris, Country: France",
         "Or just typing the city name only, and the app is going to show the first city it finds",
-        "The app also has a language switch, "
+        "The app also has a language switch button, with it you can switch from english to spanish, this button is situated at the top-right of the screen",
+        "The button updates the language of the texts, like the weather desc, city and country name"
     ]
 }
