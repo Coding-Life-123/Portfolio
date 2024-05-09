@@ -11,6 +11,7 @@ $(document).ready(function(){
     $("#searchCountry").html(data.AppSearchBy[1])
     $("#searchCity").html(data.AppSearchBy[2])
     $("#langButton").html(data.AppSearchBy[3])
+    $("#langEffectDesc").html(data.AppSearchBy[4])
   }
   getData()
 });

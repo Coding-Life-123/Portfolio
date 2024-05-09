@@ -4,6 +4,8 @@
     "AppSearchBy": [
         "Puedes buscar ciudades con el nombre de la ciudad y el código ISO de cada país, cómo en este caso Ciudad: Nueva York, código ISO: USA (Estados Unidos)",
         "O escribiendo el nombre completo del país Ciudad: Paris, País: Francia",
-        "O simplemente escribiendo el nombre de la ciudad, y la aplicación mostrará la primer ciudad que encuentra"
+        "O simplemente escribiendo el nombre de la ciudad, y la aplicación mostrará la primer ciudad que encuentra",
+        "La aplicación también tiene un botón para cambiar de idioma entre inglés y español, este botón está situado en la zona superior derecha de la pantalla",
+        "El botón actualiza el idioma de los textos, cómo la descripción del clima o el nombre del país"
     ]
 }
