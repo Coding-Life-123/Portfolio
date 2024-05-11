@@ -1,8 +1,14 @@
 $(document).ready(function(){
   var lang = document.documentElement.lang;
 
+  var url = document.URL.split("/")
+  var search = (url[url.length-1].split('.'))[0]
+
+  console.log(url)
+  console.log(search)
+
   async function getData() {
-    let data = await $.getJSON(`../../langs/WeatherApp/${lang}.json`);
+    let data = await $.getJSON(`../langs/${search}/${lang}.json`);
 
     $("#appTitle").html(data.AppTitle)
 
