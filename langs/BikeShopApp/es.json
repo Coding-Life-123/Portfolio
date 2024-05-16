@@ -1,4 +1,17 @@
 {
     "AppTitle":"Tienda de motos",
-    "AppDesc":"Tienda online de motos en la cual puedes filtrar por marca, precio, tipo o modelo, al desplazar el mouse sobre alguna de las motos, te muestra un poco de la información básica sobre la esta, tales como la cilindrada, la potencia y el peso en seco, después cuando quieras darle un vistazo a una moto específica, te lleva a otro componente donde puedes ver el valor, nombre y modelo de la moto, con una breve descripción de esta y detalles tales cómo una descripcióndel motor, potencia, torque, peso en seco, peso en húmedo, especificaciones del clutch y de la transmision, alto, ancho, largo, altura del asiento, y más. Esta aplicación tiene su propia base de datos y está hecha usando ReactJS, NodeJS, ExpressJS, JavaScript, TailwindCSS, HTML, and MySQL."
+    "AppDesc":"Tienda online de motos con ReactJS, NodeJS, ExpressJS, JavaScript, TailwindCSS, HTML, and MySQL, la aplicación tiene su propia base de datos con toda la información de las motos, pero sólo pide la información que necesita en el momento, así la aplicación no carga datos innecesarios.",
+    "AppSearchBy":[
+        "En esta app puedes filtrar motos por Marca, Precio, Tipo o Modelo, cómo se ve en la imagen de abajo, en esta página la aplicación pide el link de la imagen, marca, modelo, cilindraje, potencia, y peso en seco, en este ejemplo estoy filtrando por precio, seleccionando sólo las motos cuyo precio está entre $10.000 y $29.999.",
+        "Sí quieres darle un vistazo a algunas de las especIf you want to have a quick look at some of the bike specs, you can hover on a bike, it shows you the engine displacement, power and dry weight of the bike you are hovering, also has a different border and shadow color",
+        "You looked at a bike you like? Perfect!, click on it and you can take a look to the bike specs on detail, Engine, Transmission, Chassis and Dimensions of the bike",
+        "In case you want to go back to the main page without any filters applied and look at the entire inventory, the home button will take you back"
+    ],
+    "AppImagesLink":[
+        "https://i.postimg.cc/VspjT2Jt/Opera-Captura-de-pantalla-2024-05-02-133156-localhost.png",
+        "https://i.postimg.cc/GtWGyTWK/Captura-de-pantalla-2024-05-02-133454.png",
+        "https://i.postimg.cc/8PvhVwv0/Captura-de-pantalla-2024-05-02-133359.png",
+        "https://i.postimg.cc/BZwJfQx8/Opera-Captura-de-pantalla-2024-05-01-223218-localhost.png",
+        "https://i.postimg.cc/ryHR5yjR/imagen-2024-05-16-101735708.png"
+    ]
 }

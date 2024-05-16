@@ -7,5 +7,12 @@
         "O simplemente escribiendo el nombre de la ciudad, y la aplicación mostrará la primer ciudad que encuentra",
         "La aplicación también tiene un botón para cambiar de idioma entre inglés y español, este botón está situado en la zona superior derecha de la pantalla",
         "El botón actualiza el idioma de los textos, cómo la descripción del clima o el nombre del país"
+    ],
+    "AppImagesLink":[
+        "https://i.postimg.cc/ZKF53Dy3/Opera-Captura-de-pantalla-2024-05-02-134549-weather-app-bay-five-vercel-app.png",
+        "https://i.postimg.cc/Ls1FvC5C/Opera-Captura-de-pantalla-2024-05-07-121805-weather-app-bay-five-vercel-app.png",
+        "https://i.postimg.cc/cLfcmfZ7/Opera-Captura-de-pantalla-2024-05-07-135136-weather-app-bay-five-vercel-app.png",
+        "https://i.postimg.cc/hj8WRX9V/Opera-Captura-de-pantalla-2024-05-07-135013-weather-app-bay-five-vercel-app.png",
+        "https://i.postimg.cc/nzgFpTVN/Opera-Captura-de-pantalla-2024-05-07-204953-weather-app-bay-five-vercel-app.png"
     ]
 }

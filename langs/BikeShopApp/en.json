@@ -1,4 +1,17 @@
 {
     "AppTitle":"Bike shop",
-    "AppDesc":"Online bike shop on wich you can filter by brand, cost, type or model, when you hover on a bike it shows you some basic data about the bike, such as engine displacement, dry weight and power, then when you want to take a look at a specific bike it takes you to a component where you can see the cost, name and model of the bike, with a quick description of it, and details such as an engine description, power, torque, dry weight, wet weight, clutch specs, transmission specs, height, width, length, seat height, and more, it has its own database and is made using ReactJS, NodeJS, ExpressJS, JavaScript, TailwindCSS, HTML, and MySQL."
+    "AppDesc":"Online bike shop made using ReactJS, NodeJS, ExpressJS, JavaScript, TailwindCSS, HTML, and MySQL, the app has its own database with the full data of the bikes, but only requests the data that it needs at the momment so the app doesn't get useless data.",
+    "AppSearchBy":[
+        "On this app you can filter bikes by Brand, Price, Type or Model as you can see in the image below, on this page the app requests the image link, brand, model, engine displacement, power, and dry weight, in this example i am filtering by cost, selecting only the bikes wich price is between $10.000 and $29.999.",
+        "If you want to have a quick look at some of the bike specs, you can hover on a bike, it shows you the engine displacement, power and dry weight of the bike you are hovering, also has a different border and shadow color",
+        "You looked at a bike you like? Perfect!, click on it and you can take a look to the bike specs on detail, Engine, Transmission, Chassis and Dimensions of the bike",
+        "In case you want to go back to the main page without any filters applied and look at the entire inventory, the home button will take you back"
+    ],
+    "AppImagesLink":[
+        "https://i.postimg.cc/VspjT2Jt/Opera-Captura-de-pantalla-2024-05-02-133156-localhost.png",
+        "https://i.postimg.cc/GtWGyTWK/Captura-de-pantalla-2024-05-02-133454.png",
+        "https://i.postimg.cc/8PvhVwv0/Captura-de-pantalla-2024-05-02-133359.png",
+        "https://i.postimg.cc/BZwJfQx8/Opera-Captura-de-pantalla-2024-05-01-223218-localhost.png",
+        "https://i.postimg.cc/ryHR5yjR/imagen-2024-05-16-101735708.png"
+    ]
 }
