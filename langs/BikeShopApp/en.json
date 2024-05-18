@@ -5,7 +5,7 @@
         "On this app you can filter bikes by Brand, Price, Type or Model as you can see in the image below, on this page the app requests the image link, brand, model, engine displacement, power, and dry weight, in this example i am filtering by cost, selecting only the bikes wich price is between $10.000 and $29.999.",
         "If you want to have a quick look at some of the bike specs, you can hover on a bike, it shows you the engine displacement, power and dry weight of the bike you are hovering, also has a different border and shadow color",
         "You looked at a bike you like? Perfect!, click on it and you can take a look to the bike specs on detail, Engine, Transmission, Chassis and Dimensions of the bike",
-        "In case you want to go back to the main page without any filters applied and look at the entire inventory, the home button will take you back"
+        "You want to go back and look at another bike? The HOME button will take you back to the main page without any filters applied so it's going to display the entire inventory."
     ],
     "AppImagesLink":[
         "https://i.postimg.cc/VspjT2Jt/Opera-Captura-de-pantalla-2024-05-02-133156-localhost.png",

@@ -15,6 +15,28 @@ body{
     color: var(--text-color);
 }
 
+.navbar {
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    display: flex;
+    justify-content: center; 
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
 .main-container{
     width: 60%;
     margin-left: auto;

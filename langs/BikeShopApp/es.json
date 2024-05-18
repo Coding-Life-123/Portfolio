@@ -3,9 +3,9 @@
     "AppDesc":"Tienda online de motos con ReactJS, NodeJS, ExpressJS, JavaScript, TailwindCSS, HTML, and MySQL, la aplicación tiene su propia base de datos con toda la información de las motos, pero sólo pide la información que necesita en el momento, así la aplicación no carga datos innecesarios.",
     "AppSearchBy":[
         "En esta app puedes filtrar motos por Marca, Precio, Tipo o Modelo, cómo se ve en la imagen de abajo, en esta página la aplicación pide el link de la imagen, marca, modelo, cilindraje, potencia, y peso en seco, en este ejemplo estoy filtrando por precio, seleccionando sólo las motos cuyo precio está entre $10.000 y $29.999.",
-        "Sí quieres darle un vistazo a algunas de las especIf you want to have a quick look at some of the bike specs, you can hover on a bike, it shows you the engine displacement, power and dry weight of the bike you are hovering, also has a different border and shadow color",
-        "You looked at a bike you like? Perfect!, click on it and you can take a look to the bike specs on detail, Engine, Transmission, Chassis and Dimensions of the bike",
-        "In case you want to go back to the main page without any filters applied and look at the entire inventory, the home button will take you back"
+        "Sí quieres darle un vistazo a algunas de las especificaciones, puedes poner el mouse sobre la moto que quieras ver, te mostrará el cilinraje, potencia y peso en seco de la moto, además que se aplica un borde distinto y otro color de sombra",
+        "Hay una moto que te gusta? Perfecto!, dale click y te llevará a una página donde podrás ver más a detalle las especificaciones de la moto, Motor, Transmisión, Chasis y Dimensiones de la moto",
+        "Quieres volver atrás y ver otra moto? El botón de HOME te llevará de vuelta, además de que no habrá filtros aplicados por ende se mostrará todo el inventario."
     ],
     "AppImagesLink":[
         "https://i.postimg.cc/VspjT2Jt/Opera-Captura-de-pantalla-2024-05-02-133156-localhost.png",
