@@ -5,6 +5,8 @@ $(document).ready(function(){
         $("html").attr("lang") === "en" ? data = await $.getJSON("./langs/en.json") : data = await $.getJSON("./langs/es.json")
 
         document.title = data.DocumentTitle
+        $("#skillsNav")
+        $("#language").html(data.AppLang)
         $("#greetingTitle").html(data.Greeting)
         $("#greetingDesc").html(data.GreetingText)
         $("#contactButton").html( `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
