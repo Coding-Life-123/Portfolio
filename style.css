@@ -35,6 +35,16 @@ body{
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;    
+    cursor: pointer;
+}
+
+.languages{
+    display: block;
+    position: absolute;
+}
+
+.languages a{
+    margin-left: 6px;
 }
 
 .main-container{
