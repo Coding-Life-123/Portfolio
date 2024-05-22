@@ -183,6 +183,10 @@ section{
     font-size: large;
 }
 
+.project-langs-container{
+    display: flex;
+}
+
 .project-button-container{
     height: 30%;
     padding: 10px;
@@ -227,7 +231,7 @@ section{
 }
 
 .about-me-texts > p > span{
-    color: rgb(255,255,110);
+    color: rgb(255,255,90);
 }
 
 /* weather app description styles */

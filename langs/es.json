@@ -12,14 +12,16 @@
             "AppProjectLink":"WeatherApp",
             "AppTitle":"Aplicación del clima",
             "AppQuickDesc":"Aplicación de clima en tiempo real para cualquier ciudad del mundo.",
-            "AppDesc":"Una aplicación del clima que provee datos de temperatura, país, visibilidad del cielo velocidad y dirección del viento, temperatura máxima y mínima, y además puedes buscar por Ciudad únicamente, o por Ciudad y País. Hice esta aplicación utilizando Javascript, jQuery, HTML, CSS, y la API de OpenWeatherApp para conseguir los datos del clima."
+            "AppDesc":"Una aplicación del clima que provee datos de temperatura, país, visibilidad del cielo velocidad y dirección del viento, temperatura máxima y mínima, y además puedes buscar por Ciudad únicamente, o por Ciudad y País. Hice esta aplicación utilizando Javascript, jQuery, HTML, CSS, y la API de OpenWeatherApp para conseguir los datos del clima.",
+            "Langs":["JavaScript", "jQuery", "HTML5", "CSS3"]
         },
         {
             "AppImage":"https://i.postimg.cc/VspjT2Jt/Opera-Captura-de-pantalla-2024-05-02-133156-localhost.png",
             "AppProjectLink":"BikeShopApp",
             "AppTitle":"Tienda de motos",
             "AppQuickDesc":"Tienda virtual de motos con su base de datos propia",
-            "AppDesc":"Tienda online de motos en la cual puedes filtrar por marca, precio, tipo o modelo, al desplazar el mouse sobre alguna de las motos, te muestra un poco de la información básica sobre la esta, tales como la cilindrada, la potencia y el peso en seco, después cuando quieras darle un vistazo a una moto específica, te lleva a otro componente donde puedes ver el valor, nombre y modelo de la moto, con una breve descripción de esta y detalles tales cómo una descripcióndel motor, potencia, torque, peso en seco, peso en húmedo, especificaciones del clutch y de la transmision, alto, ancho, largo, altura del asiento, y más. Esta aplicación tiene su propia base de datos y está hecha usando ReactJS, NodeJS, ExpressJS, JavaScript, TailwindCSS, HTML, and MySQL."
+            "AppDesc":"Tienda online de motos en la cual puedes filtrar por marca, precio, tipo o modelo, al desplazar el mouse sobre alguna de las motos, te muestra un poco de la información básica sobre la esta, tales como la cilindrada, la potencia y el peso en seco, después cuando quieras darle un vistazo a una moto específica, te lleva a otro componente donde puedes ver el valor, nombre y modelo de la moto, con una breve descripción de esta y detalles tales cómo una descripcióndel motor, potencia, torque, peso en seco, peso en húmedo, especificaciones del clutch y de la transmision, alto, ancho, largo, altura del asiento, y más. Esta aplicación tiene su propia base de datos y está hecha usando ReactJS, NodeJS, ExpressJS, JavaScript, TailwindCSS, HTML, and MySQL.",
+            "Langs":["ReactJS", "NodeJS", "ExpressJS", "JavaScript", "TailwindCSS", "HTML5", "MySQL"]
         }
     ],   
     "AboutMeTitle":"Sobre mí", 

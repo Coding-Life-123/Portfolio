@@ -9,6 +9,8 @@ $(document).ready(function(){
 
     async function loadData(){
         $("html").attr("lang") === "en" ? data = await $.getJSON("./langs/en.json") : data = await $.getJSON("./langs/es.json")
+        var langs = await $.getJSON("./langs.json")
+
 
         document.title = data.DocumentTitle
         $("#skillsNav").html(data.SkillsTitle)
@@ -34,6 +36,7 @@ $(document).ready(function(){
                     <div class="project-text-container">
                         <h1 class="project-title">${data.Projects[i].AppTitle}</h1>
                         <p class="project-quick-desc">${data.Projects[i].AppQuickDesc}</p>
+                        <div class="project-langs-container"></div>
                         <a class="project-button" href=${"./Projects/"+data.Projects[i].AppProjectLink + ".html"}>See More...</a>
                     </div>
                 </div>
@@ -47,6 +50,7 @@ $(document).ready(function(){
         }
     }
     loadData()
+    
     function switchLang (lang){
         $("html").attr("lang", lang)
         loadData()

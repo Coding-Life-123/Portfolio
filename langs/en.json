@@ -12,14 +12,16 @@
             "AppProjectLink":"WeatherApp",
             "AppTitle":"Weather App",
             "AppQuickDesc":"Realtime weather app for any city in the world.",
-            "AppDesc":"A weather app that provides temperature, country, sky visibility, wind speed and direction, maximum and minimum temperature, and you can also do a search by City only, or City and Country. I made this app using JavaScript, jQuery, HTML, CSS, and OpenWeatherApp API to get the weather data."
+            "AppDesc":"A weather app that provides temperature, country, sky visibility, wind speed and direction, maximum and minimum temperature, and you can also do a search by City only, or City and Country. I made this app using JavaScript, jQuery, HTML, CSS, and OpenWeatherApp API to get the weather data.",
+            "Langs":["JavaScript", "jQuery", "HTML5", "CSS3"]
         },
         {
             "AppImage":"https://i.postimg.cc/VspjT2Jt/Opera-Captura-de-pantalla-2024-05-02-133156-localhost.png",
             "AppProjectLink":"BikeShopApp",
             "AppTitle":"Bike shop",
             "AppQuickDesc":"Virtual bike shop with it's own database",
-            "AppDesc":"Online bike shop on wich you can filter by brand, cost, type or model, when you hover on a bike it shows you some basic data about the bike, such as engine displacement, dry weight and power, then when you want to take a look at a specific bike it takes you to a component where you can see the cost, name and model of the bike, with a quick description of it, and details such as an engine description, power, torque, dry weight, wet weight, clutch specs, transmission specs, height, width, length, seat height, and more, it has its own database and is made using ReactJS, NodeJS, ExpressJS, JavaScript, TailwindCSS, HTML, and MySQL."
+            "AppDesc":"Online bike shop on wich you can filter by brand, cost, type or model, when you hover on a bike it shows you some basic data about the bike, such as engine displacement, dry weight and power, then when you want to take a look at a specific bike it takes you to a component where you can see the cost, name and model of the bike, with a quick description of it, and details such as an engine description, power, torque, dry weight, wet weight, clutch specs, transmission specs, height, width, length, seat height, and more, it has its own database and is made using ReactJS, NodeJS, ExpressJS, JavaScript, TailwindCSS, HTML, and MySQL.",
+            "Langs":["ReactJS", "NodeJS", "ExpressJS", "JavaScript", "TailwindCSS", "HTML5", "MySQL"]
         }
     ],
     "AboutMeTitle":"About me",
