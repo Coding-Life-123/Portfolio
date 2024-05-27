@@ -24,6 +24,8 @@ $(document).ready(function(){
     $("#appFifthImage").attr("src", data.AppImagesLink[4])
     $("#langButton").html(data.AppSearchBy[3])
     $("#langEffectDesc").html(data.AppSearchBy[4])
+    data.Link === null ? null : $("#tryIt").html(`<a class="try-button" href="${data.Link}" target="_blank">${data.TryText}</a>`)
+
   }
   getData()
 });

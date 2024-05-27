@@ -4,7 +4,7 @@ $(document).ready(function(){
     $("#languages").hide();
 
     $("#language").on('click', () => {
-        $("#languages").toggle();
+        $("#languagesContainer").toggle();
     })
 
 
@@ -20,7 +20,7 @@ $(document).ready(function(){
         $("#projectsNav").html(data.ProjectsTitle)
         $("#aboutMeNav").html(data.AboutMeTitle)
         $("#language").html(data.AppLang)
-        $("#languages").html(`
+        $("#languagesTexts").html(`
             <a href="#" onclick="switchLang('en')">English</a>
             <a href="#" onclick="switchLang('es')">Español</a>
             `
@@ -49,7 +49,7 @@ $(document).ready(function(){
                         <h1 class="project-title">${data.Projects[i].AppTitle}</h1>
                         <p class="project-quick-desc">${data.Projects[i].AppQuickDesc}</p>
                         <div id="${"projectLangsContainer" + i}" class="project-langs-container"></div>
-                        <a class="project-button" href=${"./Projects/"+data.Projects[i].AppProjectLink + ".html"}>See More...</a>
+                        <a class="project-button" href=${"./Projects/"+data.Projects[i].AppProjectLink + ".html"}>${data.SeeMoreText}...</a>
                     </div>
                 </div>
             `)
@@ -78,20 +78,6 @@ $(document).ready(function(){
     }
     loadData()
 
-    const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, {
-        threshold: 0.1
-    });
-
-    document.querySelectorAll('.section').forEach(section => {
-        observer.observe(section);
-    });
 });
 
 
