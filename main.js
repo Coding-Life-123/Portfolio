@@ -1,7 +1,7 @@
 $(document).ready(function(){
     var data;
 
-    $("#languages").hide();
+    $("#languagesContainer").hide();
 
     $("#language").on('click', () => {
         $("#languagesContainer").toggle();
