@@ -1,3 +1,8 @@
 {
-    "Node":"./icons/nodejs-icon.svg"
+    "NodeJS":"./icons/nodejs-icon.svg",
+    "CSS3":"./icons/css-3.svg",
+    "ExpressJS":"./icons/express.svg",
+    "HTML5":"./icons/html-1.svg",
+    "jQuery":"./icons/jQuery.svg",
+    "JavaScript":"./icons/logo-javascript.svg"
 }

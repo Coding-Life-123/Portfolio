@@ -7,9 +7,12 @@ $(document).ready(function(){
         $("#languages").toggle();
     })
 
+
+
     async function loadData(){
+        $("html").attr("lang", localStorage.getItem('lang'))
         $("html").attr("lang") === "en" ? data = await $.getJSON("./langs/en.json") : data = await $.getJSON("./langs/es.json")
-        var langs = await $.getJSON("./langs.json")
+        //var langs = await $.getJSON("./langs.json")
 
 
         document.title = data.DocumentTitle
@@ -17,6 +20,12 @@ $(document).ready(function(){
         $("#projectsNav").html(data.ProjectsTitle)
         $("#aboutMeNav").html(data.AboutMeTitle)
         $("#language").html(data.AppLang)
+        $("#languages").html(`
+            <a href="#" onclick="switchLang('en')">English</a>
+            <a href="#" onclick="switchLang('es')">Español</a>
+            `
+        )
+        
         
         $("#greetingTitle").html(data.Greeting)
         $("#greetingDesc").html(data.GreetingText)
@@ -26,35 +35,63 @@ $(document).ready(function(){
         $("#skillsTitle").html(data.SkillsTitle)
         $("#projectsTitle").html(data.ProjectsTitle)
 
+        var index;
+
+        $("#projects").empty();
 
         for( i=0; i<data.Projects.length; i++){
             $("#projects").append(`
-                <div class="project-container">
+                <div key=${i} class="project-container">
                     <div class="project-image-container">
                         <img src=${data.Projects[i].AppImage} class="project-image" alt=""/>
                     </div>
                     <div class="project-text-container">
                         <h1 class="project-title">${data.Projects[i].AppTitle}</h1>
                         <p class="project-quick-desc">${data.Projects[i].AppQuickDesc}</p>
-                        <div class="project-langs-container"></div>
+                        <div id="${"projectLangsContainer" + i}" class="project-langs-container"></div>
                         <a class="project-button" href=${"./Projects/"+data.Projects[i].AppProjectLink + ".html"}>See More...</a>
                     </div>
                 </div>
             `)
-        }
+
+
+            for(j=0; j<data.Projects[i].Langs.length; j++){
+                $("#projectLangsContainer" + i).append(`<img src="./icons/${data.Projects[i].Langs[j]}.svg"/>`)                
+            }
+        }     
 
         $("#aboutMeTitle").html(data.AboutMeTitle)
+        $("#aboutMeTexts").empty()
         for( i = 0; i < data.AboutMe.length; i++){
             let aboutData = data.AboutMe[i].split(':')
             $("#aboutMeTexts").append(`<p>${aboutData[0]}<span>${aboutData[1]}</span>${aboutData[2]}</p>`)
         }
     }
-    loadData()
-    
-    function switchLang (lang){
-        $("html").attr("lang", lang)
-        loadData()
+
+    window.switchLang = function(lang) {
+        $("html").attr("lang", lang);
+        document.querySelectorAll('.section').forEach(section => {
+            section.classList.add('hidden')
+        });
+        localStorage.setItem('lang', lang)
+        loadData();
     }
+    loadData()
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    document.querySelectorAll('.section').forEach(section => {
+        observer.observe(section);
+    });
 });
 
 
