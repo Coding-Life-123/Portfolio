@@ -41,6 +41,10 @@ body{
     cursor: pointer;
 }
 
+.navbar a svg{
+    vertical-align: middle;
+}
+
 .languages-container{
     display: block;
     position: absolute;

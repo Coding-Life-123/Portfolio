@@ -7,7 +7,9 @@ $(document).ready(function(){
         $("#languagesContainer").toggle();
     })
 
-
+    $(".navbar-container a").on('click', ()=>{
+        $("#languagesContainer").hide();
+    })
 
     async function loadData(){
         $("html").attr("lang", localStorage.getItem('lang'))
@@ -19,7 +21,6 @@ $(document).ready(function(){
         $("#skillsNav").html(data.SkillsTitle)
         $("#projectsNav").html(data.ProjectsTitle)
         $("#aboutMeNav").html(data.AboutMeTitle)
-        $("#language").html(data.AppLang)
         $("#languagesTexts").html(`
             <a href="#" onclick="switchLang('en')">English</a>
             <a href="#" onclick="switchLang('es')">Español</a>
