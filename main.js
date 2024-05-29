@@ -1,14 +1,21 @@
 $(document).ready(function(){
     var data;
+    var show = false
 
     $("#languagesContainer").hide();
 
     $("#language").on('click', () => {
         $("#languagesContainer").toggle();
+        show = !show
+        $("#languagesContainer").toggleClass("show")
     })
 
-    $(".navbar-container a").on('click', ()=>{
-        $("#languagesContainer").hide();
+    $(".navbar-container>a").on('click', ()=>{
+        if($("#languagesContainer").hasClass("show")){
+            $("#languagesContainer").removeClass("show")
+            $("#languagesContainer").hide()
+        }
+        
     })
 
     async function loadData(){
