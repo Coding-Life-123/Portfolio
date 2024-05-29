@@ -10,12 +10,17 @@ $(document).ready(function(){
         $("#languagesContainer").toggleClass("show")
     })
 
+
+
+    $("#languagesContainer").on('focusout', ()=>{
+        $("#languagesContainer").hide();
+    })
+
     $(".navbar-container>a").on('click', ()=>{
         if($("#languagesContainer").hasClass("show")){
             $("#languagesContainer").removeClass("show")
             $("#languagesContainer").hide()
-        }
-        
+        } 
     })
 
     async function loadData(){
