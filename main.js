@@ -1,6 +1,32 @@
 $(document).ready(function(){
     var data;
     var show = false
+    var links = [
+        "icons/HTML5.svg",
+        "icons/CSS3.svg",
+        "icons/TailwindCSS.svg",
+        "icons/JavaScript.svg",
+        "icons/jQuery.svg",
+        "icons/ReactJS.svg",
+        "icons/NodeJS.svg",
+        "icons/ExpressJS.svg",
+        "icons/MySQL.svg",
+        "icons/MongoDB.svg"
+    ];
+    
+    var names = [
+        "HTML5",
+        "CSS3",
+        "Tailwind",
+        "JavaScript",
+        "jQuery",
+        "ReactJS",
+        "NodeJS",
+        "ExpressJS",
+        "MySQL",
+        "MongoDB"
+    ];
+    
 
     $("#languagesContainer").hide();
 
@@ -48,7 +74,16 @@ $(document).ready(function(){
         $("#skillsTitle").html(data.SkillsTitle)
         $("#projectsTitle").html(data.ProjectsTitle)
 
-        var index;
+        $("#skillsContainer").empty();
+
+        for( i=0; i<names.length; i++){
+            $("#skillsContainer").append(`
+                <div>
+                    <img src="${links[i]}"/>
+                    <p>${names[i]}</p>
+                </div>
+            `)
+        }
 
         $("#projects").empty();
 
