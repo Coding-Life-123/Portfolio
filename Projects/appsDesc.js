@@ -1,12 +1,11 @@
 $(document).ready(function(){
+
+  
   var lang = localStorage.getItem('lang');
 
   var url = document.URL.split("/")
   var search = (url[url.length-1].split('.'))[0]
 
-  console.log(url)
-  console.log(search)
-  console.log(lang)
 
   async function getData() {
     let data = await $.getJSON(`../langs/${search}/${lang}.json`);

@@ -51,14 +51,14 @@ $(document).ready(function(){
 
     async function loadData(){
         $("html").attr("lang", localStorage.getItem('lang'))
-        $("html").attr("lang") === "en" ? data = await $.getJSON("./langs/en.json") : data = await $.getJSON("./langs/es.json")
-        //var langs = await $.getJSON("./langs.json")
+        data = await $.getJSON(`./langs/${$("html").attr('lang')}.json`)
 
 
+        console.log(data)
         document.title = data.DocumentTitle
-        $("#skillsNav").html(data.SkillsTitle)
-        $("#projectsNav").html(data.ProjectsTitle)
-        $("#aboutMeNav").html(data.AboutMeTitle)
+        $(".skills-nav").html(data.SkillsTitle)
+        $(".projects-nav").html(data.ProjectsTitle)
+        $(".about-me-nav").html(data.AboutMeTitle)
         $("#languagesTexts").html(`
             <a href="#" onclick="switchLang('en')">English</a>
             <a href="#" onclick="switchLang('es')">Español</a>
