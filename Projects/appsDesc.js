@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var lang = document.documentElement.lang;
+  var lang = localStorage.getItem('lang');
 
   var url = document.URL.split("/")
   var search = (url[url.length-1].split('.'))[0]
