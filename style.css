@@ -320,13 +320,13 @@ img{
 .try-button{
     display: block;
     color: var(--text-color);
-    text-decoration: none;
     font-size: x-large;
     margin: 30px 2px;
     font-weight: 400;
 }
 
-.try-button :hover{
-    color: #000;
-    text-decoration: double;
+.try-button:hover{
+    color: #ddd;
+    width: fit-content;
+    text-decoration: none;
 }
