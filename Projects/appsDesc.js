@@ -1,10 +1,12 @@
 $(document).ready(function(){
 
   
-  var lang = localStorage.getItem('lang');
+  let lang = localStorage.getItem('lang');
 
-  var url = document.URL.split("/")
-  var search = (url[url.length-1].split('.'))[0]
+  let url = document.URL.split("/")
+  let search = (url[url.length-1].split('.'))[0]
+  console.log(url)
+  console.log(search);
 
 
   async function getData() {

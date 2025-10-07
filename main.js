@@ -51,6 +51,7 @@ $(document).ready(function(){
 
     async function loadData(){
         let langAttribute = $('html').attr('lang');
+        localStorage.setItem('lang', langAttribute)
         console.log(langAttribute);
         
         $("html").attr("lang", localStorage.getItem('lang'))
