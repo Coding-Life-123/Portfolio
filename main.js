@@ -50,8 +50,11 @@ $(document).ready(function(){
     })
 
     async function loadData(){
+        let langAttribute = $('html').attr('lang');
+        console.log(langAttribute);
+        
         $("html").attr("lang", localStorage.getItem('lang'))
-        data = await $.getJSON(`./langs/${$("html").attr('lang')}.json`)
+        data = await $.getJSON(`./langs/${langAttribute}.json`)
 
 
         console.log(data)
@@ -125,7 +128,6 @@ $(document).ready(function(){
         loadData();
     }
     loadData()
-
 });
 
 
